@@ -4,11 +4,12 @@ Enda Lee 2022
 
 ### Quick Start
 
-1. Make sure the `Server API` app is running on http://localhost:5001
-2. Download the start site from this repository.
-3. Open in VS Code (separate to the server API instance).
-4. In a terminal run `npm install`.
-5. Start the application using `npm run dev`.
+1. Get the server API from https://github.com/elee-tudublin/2022.FT.SSWD.8.1.product_api_sveltekit_client_crud_complete
+2. Make sure the `Server API` app is running on http://localhost:5001
+3. Download the start site from this repository.
+4. Open in VS Code (separate to the server API instance).
+5. In a terminal run `npm install`.
+6. Start the application using `npm run dev`.
 
 
 
