@@ -38,6 +38,7 @@ const initRequest = (http_method = 'GET', body_data = '') => {
 // Full URI based on base_url + endpoint
 const getAPIData = async (endpoint = '', request = initRequest()) => {
     try {
+        // @ts-ignore
         const response = await fetch(`${base_url}${endpoint}`, request);
         const data = await response.json();
         return data;
@@ -65,6 +66,11 @@ export const getAllCategories= async () => {
     categories.set(data);     
 
 };
+
+// Get product by id
+export const GetProductById= async (id = '') => {
+    // call api to get product by id
+}
 
 
 // Function to get products in a category (by category id)
