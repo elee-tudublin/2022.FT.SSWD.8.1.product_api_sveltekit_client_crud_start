@@ -4,7 +4,7 @@ Enda Lee 2022
 
 ### Quick Start
 
-1. Get the server API from https://github.com/elee-tudublin/2022.FT.SSWD.8.1.product_api_sveltekit_client_crud_complete
+1. Get the server API from https://github.com/elee-tudublin/2022_FT.SSWD_8.1_Web-API_Add_Product_Complete
 2. Make sure the `Server API` app is running on http://localhost:5001
 3. Download the start site from this repository.
 4. Open in VS Code (separate to the server API instance).
@@ -99,7 +99,7 @@ You can see that the button links to `/addproduct`. Add this route to the `route
 2. Add the svelte client page `+page.svelte`
 3. Add a svelte server script `+page.server.js`   
 
-![add product route](.\media\addproduct_route.png)
+![add product route](./media/addproduct_route.png)
 
 
 
@@ -107,7 +107,7 @@ You can see that the button links to `/addproduct`. Add this route to the `route
 
 This is a **Bootstrap 5** styled form, which will look like this when displayed:
 
-![add product form](.\media\add_product_form.png)
+![add product form](./media/add_product_form.png)
 
 
 
