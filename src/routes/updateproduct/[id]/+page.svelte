@@ -22,6 +22,5 @@ const { product } = data;
 </script>
   
   <h1>Params</h1>
-  {#if ($page.params.id)}
-    <h3>To Do: Update Product with id {$page.params.id}</h3>
-  {/if}
+  <h3>id param from url: {$page.params?.id}</h3>
+  <h3>To Do: Update Product with id {product?.id}</h3>

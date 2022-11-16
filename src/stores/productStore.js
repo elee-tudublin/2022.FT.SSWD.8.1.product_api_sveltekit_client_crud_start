@@ -70,6 +70,12 @@ export const getAllCategories= async () => {
 // Get product by id
 export const GetProductById= async (id = '') => {
     // call api to get product by id
+
+    // test product
+
+    return {
+        id: id
+    }
 }
 
 

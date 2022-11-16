@@ -10,7 +10,7 @@ import { GetProductById, updateProduct } from '../../../stores/productStore.js';
 export const load = async ({params}) => {
 
     // read id param 
-    const id = params?.id;
+    const id = params.id;
 
     console.log('id param value: ', id)
 
